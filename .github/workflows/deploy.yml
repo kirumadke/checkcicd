@@ -16,7 +16,7 @@ jobs:
     - name: Test SSH Connection
       uses: appleboy/ssh-action@v0.1.6
       with:
-        host: <EC2-IP>
+        host: 34.230.201.118
         username: ftpuser
         key: ${{ secrets.FTP_SSH_KEY }}
         port: 22
